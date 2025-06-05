@@ -80,8 +80,6 @@ class TestimonialResource extends Resource
     {
         return [
             'index' => Pages\ListTestimonials::route('/'),
-            'create' => Pages\CreateTestimonial::route('/create'),
-            'edit' => Pages\EditTestimonial::route('/{record}/edit'),
         ];
     }
 }
